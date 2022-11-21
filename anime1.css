@@ -1,0 +1,52 @@
+.div2
+{
+    background-color:orangered;
+    height:100px;
+    width:100px;
+    border-radius: 50;
+    position:absolute;
+
+    animation-name: himanshu;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+}
+@keyframes himanshu
+{
+    0%
+    {
+        left:50px;
+        top:0px;
+        background-color:blue;
+
+    }
+    10%
+    {
+        left:50px;
+        top:30px;
+        background-color:brown;
+    }
+    20%
+    {
+        left:100px;
+        top:30px;
+        background-color:black;
+    }
+    30%
+    {
+        left:120px;
+        top:60px;
+        background-color:brown;
+    }
+    40%
+    {
+        left:200px;
+        top:60px;
+        background-color:rgb(255, 0, 212);
+    }
+
+
+}
+
